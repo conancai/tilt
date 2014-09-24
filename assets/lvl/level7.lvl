@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level num_balls="1">
+	<entity x="0" y="149" type="h_m"/>
+	<entity x="160" y="149" type="h_m"/>
+	<entity x="320" y="149" type="h_m"/>
+	<entity x="480" y="149" type="h_m"/>
+	<entity x="640" y="149" type="h_m"/>
+	<entity x="800" y="149" type="h_m"/>
+	<entity x="960" y="149" type="h_r"/>
+	<entity x="1095" y="170" type="v_m"/>
+	<entity x="1095" y="330" type="v_b"/>
+	<entity x="939" y="465" type="h_m"/>
+	<entity x="779" y="465" type="h_m"/>
+	<entity x="619" y="465" type="h_m"/>
+	<entity x="459" y="465" type="h_m"/>
+	<entity x="299" y="465" type="h_l"/>
+	
+	<entity x="200" y="69" type="hole" endX="200" endY="0" duration="1" move_line="true" move_square="false"/>
+	<entity x="539" y="0" type="hole" endX="540" endY="69" duration="1" move_line="true" move_square="false"/>
+	<entity x="880" y="69" type="hole" endX="880" endY="0" duration="1" move_line="true" move_square="false"/>
+	<entity x="1200" y="0" type="hole" endX="1200" endY="640" duration="3" move_line="true" move_square="false"/>
+	<entity x="1120" y="640" type="hole" endX="1120" endY="0" duration="3" move_line="true" move_square="false"/>
+	<entity x="620" y="490" type="hole" side="150" clockwise="true" duration="3" move_line="false" move_square="true"/>
+	<entity x="15" y="625" type="hole" move_line="false" move_square="false"/>
+	<entity x="219" y="490" type="hole" move_line="false" move_square="false"/>
+	<entity x="52" y="210" type="hole" move_line="false" move_square="false"/>
+	<entity x="480" y="275" type="hole" move_line="false" move_square="false"/>
+	
+	<entity x="960" y="275" type="goal"/>
+	<entity x="960" y="365" type="goal_text"/>
+	<entity x="43" y="43" type="ball"/>
+</level>

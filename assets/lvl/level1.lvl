@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level num_balls="1">
+	<entity x="100" y="100" type="h"/>
+	<entity x="121" y="200" type="h"/>
+	<entity x="400" y="200" type="hole" endX="800" endY="200" duration="4" move_line="true" move_square="false"/>
+	<entity x="700" y="200" type="hole" side="100" clockwise="true" duration="4" move_line="false" move_square="true"/>
+	<entity x="1000" y="200" type="goal"/>
+	<entity x="800" y="500" type="goal_text"/>
+	<entity x="500" y="500" type="ball"/>
+</level>
